@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: example
   namespace: demo
+  annotations:
+    email: pbmoses@home.com
 spec:
   progressDeadlineSeconds: 600
   replicas: 3
